@@ -195,7 +195,12 @@ options.maxit = 20;
 options.dhmax = 20;
 options.output = false;
 
-path('./mesh2d',path); 
+if (~isdeployed) 
+    p = strcat(pwd, '/mesh2d');
+    path(p, path);
+    %path('./mesh2d',path); 
+end
+
 [trinodes,trielements,fnum] = meshfaces(node,edge,face,hdata,options);
 x_FEA = trinodes(:,1); y_FEA = trinodes(:,2);
 

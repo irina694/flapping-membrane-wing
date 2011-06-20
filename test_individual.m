@@ -25,4 +25,5 @@ x = 100*[0.0606654728407646,0.503850949171332,0.774962277145302,0.64574605395764
 
 %% compute cycle-averaged thrust, power, and lift (thrust and lift are negative, for minimization)
 %% if second number is 0 the function won't plot (much faster)
-g = membrane_flapping_fun(x,1);
+g = membrane_flapping_fun(x,1)
+disp('done');

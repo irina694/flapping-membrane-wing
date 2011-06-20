@@ -1,0 +1,75 @@
+mcc -o 'flapping_membrane_win' -W 'WinMain:flapping_membrane_win' -d 'C:\Users\Irina\Desktop\HARP\flapping membrane wing\flapping_membrane_win\src' -T 'link:exe' -v -N -p 'imaq' -p 'gads' -p 'ident' -p 'optim' -p 'pde' -p 'curvefit' -p 'map' -p 'images' -p 'rptgen' -p 'distcomp' 'C:\Users\Irina\Desktop\HARP\flapping membrane wing\test_individual.m'  
+Compiler version: 4.10 (R2009a)  
+Processing include files... 
+2 item(s) added. 
+Processing directories installed with MCR... 
+The file C:\Users\Irina\Desktop\HARP\flapping membrane wing\flapping_membrane_win\src\mccExcludedFiles.log contains a list of functions excluded from the CTF archive. 
+2 item(s) added. 
+Generating MATLAB path for the compiled application... 
+Created 42 path items. 
+Begin validation of MEX files: Sun Jun 19 13:51:01 2011  
+End validation of MEX files: Sun Jun 19 13:51:01 2011  
+Parsing file "C:\Users\Irina\Desktop\HARP\flapping membrane wing\test_individual.m" 
+	(Referenced from: "Compiler Command Line").  
+Parsing file "C:\Program Files\MATLAB\R2009a\toolbox\compiler\deploy\deployprint.m" 
+	(Referenced from: "Compiler Command Line").  
+Parsing file "C:\Program Files\MATLAB\R2009a\toolbox\compiler\deploy\printdlg.m" 
+	(Referenced from: "Compiler Command Line").  
+Deleting 0 temporary MEX authorization files.  
+Generating file "C:\Users\Irina\Desktop\HARP\flapping membrane wing\flapping_membrane_win\src\flapping_membrane_win_main.c".  
+Generating file "C:\Users\Irina\Desktop\HARP\flapping membrane wing\flapping_membrane_win\src\flapping_membrane_win_delay_load.c".  
+Generating file "C:\Users\Irina\Desktop\HARP\flapping membrane wing\flapping_membrane_win\src\readme.txt".  
+Generating file "C:\Users\Irina\Desktop\HARP\flapping membrane wing\flapping_membrane_win\src\flapping_membrane_win_mcc_component_data.c".  
+Contents of temporary response file 'C:\Users\Irina\AppData\Local\Temp\mathworks_tmp_5684_20241':  
+ ......................  
+' -O -v -output "flapping_membrane_win" -I"C:\Users\Irina\Desktop\HARP\flapping membrane wing\flapping_membrane_win\src" "C:\Users\Irina\Desktop\HARP\flapping membrane wing\flapping_membrane_win\src\flapping_membrane_win_main.c" "C:\Users\Irina\Desktop\HARP\flapping membrane wing\flapping_membrane_win\src\flapping_membrane_win_delay_load.c" "C:\Users\Irina\Desktop\HARP\flapping membrane wing\flapping_membrane_win\src\flapping_membrane_win_mcc_component_data.c" -link exe  -env MCR_DELAYLOAD=/delayload:mclmcrrt710.dll -env MCR_DELAYLIB=delayimp.lib -outdir "C:\Users\Irina\Desktop\HARP\flapping membrane wing\flapping_membrane_win\src"'  
+......................  
+Executing command: mbuild  "@C:\Users\Irina\AppData\Local\Temp\mathworks_tmp_5684_20241"  
+ This is mbuild Copyright 1984-2006 The MathWorks, Inc. 
+ 
+-> Default options filename found in C:\Users\Irina\AppData\Roaming\MathWorks\MATLAB\R2009a 
+---------------------------------------------------------------- 
+->    Options file           = C:\Users\Irina\AppData\Roaming\MathWorks\MATLAB\R2009a\compopts.bat 
+->    COMPILER               = lcc 
+->    Compiler flags: 
+         COMPFLAGS           = -c -Zp8 -I"C:\PROGRA~1\MATLAB\R2009a\sys\lcc\include" -noregistrylookup 
+         OPTIMFLAGS          = -DNDEBUG 
+         DEBUGFLAGS          = -g4 
+         arguments           =  -IC:\USERS\IRINA\DESKTOP\HARP\FLAPPI~3\FLAPPI~2\SRC 
+         Name switch         = -Fo 
+->    Pre-linking commands   =  
+->    LINKER                 = lcclnk 
+->    Link directives: 
+         LINKFLAGS           = -tmpdir "C:\USERS\IRINA\DESKTOP\HARP\FLAPPI~3\FLAPPI~2\SRC\." -L"C:\PROGRA~1\MATLAB\R2009a\sys\lcc\lib" -libpath "C:\PROGRA~1\MATLAB\R2009a\extern\lib\win32\lcc" 
+         LINKFLAGSPOST       = mclmcrrt.lib 
+         Name directive      = -o "C:\USERS\IRINA\DESKTOP\HARP\FLAPPI~3\FLAPPI~2\SRC\flapping_membrane_win.exe" 
+         File link directive =  
+         Lib. link directive =  
+         Rsp file indicator  = @ 
+->    Resource Compiler      =  
+->    Resource Linker        =  
+---------------------------------------------------------------- 
+ 
+ 
+--> lcc  -IC:\USERS\IRINA\DESKTOP\HARP\FLAPPI~3\FLAPPI~2\SRC -c -Zp8 -I"C:\PROGRA~1\MATLAB\R2009a\sys\lcc\include" -noregistrylookup -FoC:\USERS\IRINA\APPDATA\LOCAL\TEMP\MBUILD~1\flapping_membrane_win_main.obj -IC:\PROGRA~1\MATLAB\R2009a\extern\include -IC:\PROGRA~1\MATLAB\R2009a\simulink\include -DNDEBUG "C:\Users\Irina\Desktop\HARP\flapping membrane wing\flapping_membrane_win\src\flapping_membrane_win_main.c" 
+ 
+ 
+--> lcc  -IC:\USERS\IRINA\DESKTOP\HARP\FLAPPI~3\FLAPPI~2\SRC -c -Zp8 -I"C:\PROGRA~1\MATLAB\R2009a\sys\lcc\include" -noregistrylookup -FoC:\USERS\IRINA\APPDATA\LOCAL\TEMP\MBUILD~1\flapping_membrane_win_delay_load.obj -IC:\PROGRA~1\MATLAB\R2009a\extern\include -IC:\PROGRA~1\MATLAB\R2009a\simulink\include -DNDEBUG "C:\Users\Irina\Desktop\HARP\flapping membrane wing\flapping_membrane_win\src\flapping_membrane_win_delay_load.c" 
+ 
+Warning C:\Users\Irina\Desktop\HARP\flapping membrane wing\flapping_membrane_win\src\flapping_membrane_win_delay_load.c: 21  static `void function(void) FailedToLoadMCR' is not referenced 
+0 errors, 1 warnings 
+ 
+--> lcc  -IC:\USERS\IRINA\DESKTOP\HARP\FLAPPI~3\FLAPPI~2\SRC -c -Zp8 -I"C:\PROGRA~1\MATLAB\R2009a\sys\lcc\include" -noregistrylookup -FoC:\USERS\IRINA\APPDATA\LOCAL\TEMP\MBUILD~1\flapping_membrane_win_mcc_component_data.obj -IC:\PROGRA~1\MATLAB\R2009a\extern\include -IC:\PROGRA~1\MATLAB\R2009a\simulink\include -DNDEBUG "C:\Users\Irina\Desktop\HARP\flapping membrane wing\flapping_membrane_win\src\flapping_membrane_win_mcc_component_data.c" 
+ 
+    Contents of C:\USERS\IRINA\APPDATA\LOCAL\TEMP\MBUILD~1\mbuild_tmp.rsp: 
+  C:\USERS\IRINA\APPDATA\LOCAL\TEMP\MBUILD~1\flapping_membrane_win_main.obj  C:\USERS\IRINA\APPDATA\LOCAL\TEMP\MBUILD~1\flapping_membrane_win_delay_load.obj  C:\USERS\IRINA\APPDATA\LOCAL\TEMP\MBUILD~1\flapping_membrane_win_mcc_component_data.obj 
+ 
+ 
+--> lcclnk -o "C:\USERS\IRINA\DESKTOP\HARP\FLAPPI~3\FLAPPI~2\SRC\flapping_membrane_win.exe" -tmpdir "C:\USERS\IRINA\DESKTOP\HARP\FLAPPI~3\FLAPPI~2\SRC\." -L"C:\PROGRA~1\MATLAB\R2009a\sys\lcc\lib" -libpath "C:\PROGRA~1\MATLAB\R2009a\extern\lib\win32\lcc"  @C:\USERS\IRINA\APPDATA\LOCAL\TEMP\MBUILD~1\MBUILD~1.RSP  mclmcrrt.lib 
+ 
+ 
+--> "if exist C:\USERS\IRINA\APPDATA\LOCAL\TEMP\MBUILD~1\templib.def del C:\USERS\IRINA\APPDATA\LOCAL\TEMP\MBUILD~1\templib.def" 
+ 
+ 
+--> "if exist C:\USERS\IRINA\APPDATA\LOCAL\TEMP\MBUILD~1\templib_stub.obj del C:\USERS\IRINA\APPDATA\LOCAL\TEMP\MBUILD~1\templib_stub.obj" 
+ 

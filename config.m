@@ -1,5 +1,11 @@
-path('./mapLS',path);                   % path to the MLS library
-path('./MATLAB/etc/',path);
+if (~isdeployed) 
+    p1 = strcat(pwd, '/mapLS');
+    p2 = strcat(pwd, '/MATLAB/etc');
+    path(p1, path);
+    path(p2, path);
+    %path('./mapLS',path);                   % path to the MLS library
+    %path('./MATLAB/etc/',path);
+end
 
 %% number of variables
 Gvars.Nh = 20;

@@ -1,1 +1,14 @@
-The description of the project will go here.
+The code for the project is contained in .m files in the current directory, and uses MATLAB library folders mapLS, MATLAB/etc, and mesh2d. 
+A standalone executable of the code for Windows 32-bit is contained in the flapping_membrane_win directory. 
+
+flapping membrane wing 
+------------------------
+The main function is test_individual.m, which takes no input and displays a plot of the wing throughtout the calculation, and outputs the final objective mean values of drag, power, and lift. If the calculation fails, the output array equals [1, 1, 1]. 
+
+--------------------------------
+flapping_membrane_win directory
+1. distrib directory contains the standalone application for windows, and the packaged application for deployment on windows machine without MATLAB.
+To run a standalone executable, double click on flapping_membrane_win.exe.
+The plots are displayed while the function is running, and the result is displayed to the terminal at the end of the calculation. 
+2. src directory contains MATLAB complation files and build log files. 
+
